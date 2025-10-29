@@ -175,7 +175,10 @@ class TradingAgentsGraph:
                 if len(chunk["messages"]) == 0:
                     pass
                 else:
-                    chunk["messages"][-1].pretty_print()
+                    try:
+                        chunk["messages"][-1].pretty_print()
+                    except UnicodeEncodeError:
+                        print(f"[Agent Message - encoding error prevented display]")
                     trace.append(chunk)
 
             final_state = trace[-1]
