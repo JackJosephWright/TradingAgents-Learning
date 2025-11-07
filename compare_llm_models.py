@@ -54,8 +54,8 @@ def analyze_stock_with_model(ticker, date, model_config):
     start_time = time.time()
 
     try:
-        # Initialize with this model (use_memory=False to avoid ChromaDB conflicts)
-        ta = TradingAgentsGraph(debug=False, config=config, use_memory=False)
+        # Initialize with this model (ChromaDB now uses get_or_create_collection)
+        ta = TradingAgentsGraph(debug=False, config=config)
 
         # Run analysis
         final_state, final_decision = ta.propagate(ticker, date)
@@ -77,7 +77,7 @@ def analyze_stock_with_model(ticker, date, model_config):
         if "market_report" in final_state:
             result["market_report"] = final_state["market_report"][:500]
 
-        print(f"\n[RESULT] {model_config['name']} → {ticker}: {final_decision}")
+        print(f"\n[RESULT] {model_config['name']} -> {ticker}: {final_decision}")
         print(f"[TIME] {analysis_time:.1f} seconds")
 
         return result
@@ -107,7 +107,7 @@ def compare_models():
     print()
 
     for model_config in MODELS_TO_TEST:
-        print(f"  • {model_config['name']}: {model_config['description']}")
+        print(f"  - {model_config['name']}: {model_config['description']}")
 
     all_results = []
 
@@ -160,10 +160,10 @@ def compare_models():
 
             if decision1 == decision2:
                 agreements += 1
-                print(f"✓ {ticker}: AGREE ({decision1})")
+                print(f"[AGREE] {ticker}: AGREE ({decision1})")
             else:
                 disagreements += 1
-                print(f"✗ {ticker}: DISAGREE ({results[0]['model']} says {decision1}, {results[1]['model']} says {decision2})")
+                print(f"[DISAGREE] {ticker}: DISAGREE ({results[0]['model']} says {decision1}, {results[1]['model']} says {decision2})")
 
     total = agreements + disagreements
     if total > 0:
