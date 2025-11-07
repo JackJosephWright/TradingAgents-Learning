@@ -1,0 +1,1461 @@
+
+======================================================================
+TRADINGAGENTS - FULL 10-STOCK PORTFOLIO ANALYSIS
+======================================================================
+
+Analysis Date: 2024-05-10
+Total Stocks: 10
+Sectors: 5
+
+Portfolio Composition:
+  Technology     : NVDA, AAPL, MSFT
+  Finance        : JPM, V
+  Consumer       : KO, WMT
+  Healthcare     : JNJ, UNH
+  Energy         : XOM
+
+======================================================================
+INITIALIZING TRADING AGENTS
+======================================================================
+
+Trading agents initialized successfully!
+
+======================================================================
+STARTING PORTFOLIO ANALYSIS
+======================================================================
+
+######################################################################
+# SECTOR: TECHNOLOGY
+######################################################################
+
+[PROGRESS] Analyzing stock 1/10: NVDA
+
+======================================================================
+ANALYZING: NVDA
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] NVDA: HOLD
+[TIME] Analysis completed in 266.5 seconds
+
+Waiting 2 seconds before next analysis...
+
+[PROGRESS] Analyzing stock 2/10: AAPL
+
+======================================================================
+ANALYZING: AAPL
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] AAPL: BUY
+[TIME] Analysis completed in 264.5 seconds
+
+Waiting 2 seconds before next analysis...
+
+[PROGRESS] Analyzing stock 3/10: MSFT
+
+======================================================================
+ANALYZING: MSFT
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] MSFT: BUY
+[TIME] Analysis completed in 287.6 seconds
+
+Waiting 2 seconds before next analysis...
+
+######################################################################
+# SECTOR: FINANCE
+######################################################################
+
+[PROGRESS] Analyzing stock 4/10: JPM
+
+======================================================================
+ANALYZING: JPM
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+FAILED: get_stock_stats_indicators_window from vendor 'yfinance' failed: Indicator macd_signal is not supported. Please choose from: ['close_50_sma', 'close_200_sma', 'close_10_ema', 'macd', 'macds', 'macdh', 'rsi', 'boll', 'boll_ub', 'boll_lb', 'atr', 'vwma', 'mfi']
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)FAILED: Vendor 'yfinance' produced no results
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Attempting FALLBACK vendor 'alpha_vantage' for get_indicators (attempt #2)
+
+FAILED: get_stock_stats_indicators_window from vendor 'yfinance' failed: Indicator macd_histogram is not supported. Please choose from: ['close_50_sma', 'close_200_sma', 'close_10_ema', 'macd', 'macds', 'macdh', 'rsi', 'boll', 'boll_ub', 'boll_lb', 'atr', 'vwma', 'mfi']
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]FAILED: Vendor 'yfinance' produced no results
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: Calling get_indicator from vendor 'alpha_vantage'...
+FAILED: get_indicator from vendor 'alpha_vantage' failed: Indicator macd_signal is not supported. Please choose from: ['close_50_sma', 'close_200_sma', 'close_10_ema', 'macd', 'macds', 'macdh', 'rsi', 'boll', 'boll_ub', 'boll_lb', 'atr', 'vwma']
+FAILED: Vendor 'alpha_vantage' produced no results
+
+DEBUG: Attempting FALLBACK vendor 'local' for get_indicators (attempt #3)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting FALLBACK vendor 'alpha_vantage' for get_indicators (attempt #2)DEBUG: Calling get_stock_stats_indicators_window from vendor 'local'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+FAILED: get_stock_stats_indicators_window from vendor 'local' failed: Indicator macd_signal is not supported. Please choose from: ['close_50_sma', 'close_200_sma', 'close_10_ema', 'macd', 'macds', 'macdh', 'rsi', 'boll', 'boll_ub', 'boll_lb', 'atr', 'vwma', 'mfi']
+DEBUG: Calling get_indicator from vendor 'alpha_vantage'...
+
+FAILED: get_indicator from vendor 'alpha_vantage' failed: Indicator macd_histogram is not supported. Please choose from: ['close_50_sma', 'close_200_sma', 'close_10_ema', 'macd', 'macds', 'macdh', 'rsi', 'boll', 'boll_ub', 'boll_lb', 'atr', 'vwma']DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]FAILED: Vendor 'local' produced no results
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+FAILURE: All 3 vendor attempts failed for method 'get_indicators'DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+
+FAILED: Vendor 'alpha_vantage' produced no results
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: Attempting FALLBACK vendor 'local' for get_indicators (attempt #3)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'local'...DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+
+FAILED: get_stock_stats_indicators_window from vendor 'local' failed: Indicator macd_histogram is not supported. Please choose from: ['close_50_sma', 'close_200_sma', 'close_10_ema', 'macd', 'macds', 'macdh', 'rsi', 'boll', 'boll_ub', 'boll_lb', 'atr', 'vwma', 'mfi']
+FAILED: Vendor 'local' produced no results
+FAILURE: All 3 vendor attempts failed for method 'get_indicators'
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] JPM: SELL
+[TIME] Analysis completed in 268.8 seconds
+
+Waiting 2 seconds before next analysis...
+
+[PROGRESS] Analyzing stock 5/10: V
+
+======================================================================
+ANALYZING: V
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] V: SELL
+[TIME] Analysis completed in 272.1 seconds
+
+Waiting 2 seconds before next analysis...
+
+######################################################################
+# SECTOR: CONSUMER
+######################################################################
+
+[PROGRESS] Analyzing stock 6/10: KO
+
+======================================================================
+ANALYZING: KO
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] KO: HOLD
+[TIME] Analysis completed in 280.0 seconds
+
+Waiting 2 seconds before next analysis...
+
+[PROGRESS] Analyzing stock 7/10: WMT
+
+======================================================================
+ANALYZING: WMT
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] WMT: SELL
+[TIME] Analysis completed in 265.2 seconds
+
+Waiting 2 seconds before next analysis...
+
+######################################################################
+# SECTOR: HEALTHCARE
+######################################################################
+
+[PROGRESS] Analyzing stock 8/10: JNJ
+
+======================================================================
+ANALYZING: JNJ
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] JNJ: SELL
+[TIME] Analysis completed in 275.5 seconds
+
+Waiting 2 seconds before next analysis...
+
+[PROGRESS] Analyzing stock 9/10: UNH
+
+======================================================================
+ANALYZING: UNH
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] UNH: SELL
+[TIME] Analysis completed in 241.8 seconds
+
+Waiting 2 seconds before next analysis...
+
+######################################################################
+# SECTOR: ENERGY
+######################################################################
+
+[PROGRESS] Analyzing stock 10/10: XOM
+
+======================================================================
+ANALYZING: XOM
+======================================================================
+
+DEBUG: get_stock_data - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_stock_data (attempt #1)
+DEBUG: Calling get_YFin_data_online from vendor 'yfinance'...
+SUCCESS: get_YFin_data_online from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_stock_data' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)DEBUG: get_indicators - Primary: [yfinance] | Full fallback order: [yfinance -> alpha_vantage -> local]
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+
+DEBUG: Attempting PRIMARY vendor 'yfinance' for get_indicators (attempt #1)
+DEBUG: Calling get_stock_stats_indicators_window from vendor 'yfinance'...
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullySUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyDEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfullyFINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_stock_stats_indicators_window from vendor 'yfinance' completed successfully
+SUCCESS: Vendor 'yfinance' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'yfinance' (single-vendor config)
+FINAL: Method 'get_indicators' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> google -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_news (attempt #1)
+DEBUG: Calling get_news from vendor 'alpha_vantage'...
+DEBUG: get_global_news - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai -> local]
+INFO: Vendor 'alpha_vantage' not supported for method 'get_global_news', falling back to next vendor
+DEBUG: Attempting FALLBACK vendor 'openai' for get_global_news (attempt #1)
+DEBUG: Calling get_global_news_openai from vendor 'openai'...
+SUCCESS: get_news from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_news' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_global_news_openai from vendor 'openai' completed successfully
+SUCCESS: Vendor 'openai' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'openai' (single-vendor config)
+FINAL: Method 'get_global_news' completed with 1 result(s) from 1 vendor attempt(s)
+DEBUG: get_fundamentals - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> openai]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_fundamentals (attempt #1)
+DEBUG: Calling get_fundamentals from vendor 'alpha_vantage'...
+DEBUG: get_balance_sheet - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_balance_sheet (attempt #1)
+DEBUG: Calling get_balance_sheet from vendor 'alpha_vantage'...
+DEBUG: get_cashflow - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_cashflow (attempt #1)DEBUG: get_income_statement - Primary: [alpha_vantage] | Full fallback order: [alpha_vantage -> yfinance -> local]
+
+DEBUG: Calling get_cashflow from vendor 'alpha_vantage'...
+DEBUG: Attempting PRIMARY vendor 'alpha_vantage' for get_income_statement (attempt #1)
+DEBUG: Calling get_income_statement from vendor 'alpha_vantage'...
+SUCCESS: get_fundamentals from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_fundamentals' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_income_statement from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_income_statement' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_cashflow from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_cashflow' completed with 1 result(s) from 1 vendor attempt(s)
+SUCCESS: get_balance_sheet from vendor 'alpha_vantage' completed successfully
+SUCCESS: Vendor 'alpha_vantage' succeeded - Got 1 result(s)
+DEBUG: Stopping after successful vendor 'alpha_vantage' (single-vendor config)
+FINAL: Method 'get_balance_sheet' completed with 1 result(s) from 1 vendor attempt(s)
+
+[RESULT] XOM: BUY
+[TIME] Analysis completed in 275.7 seconds
+
+======================================================================
+PORTFOLIO ANALYSIS SUMMARY
+======================================================================
+
+BUY Recommendations (3):
+  [BUY] AAPL   - Analysis time: 264.5s
+  [BUY] MSFT   - Analysis time: 287.6s
+  [BUY] XOM    - Analysis time: 275.7s
+
+HOLD Recommendations (2):
+  [HOLD] NVDA   - Analysis time: 266.5s
+  [HOLD] KO     - Analysis time: 280.0s
+
+SELL/AVOID Recommendations (5):
+  [SELL] JPM    - Analysis time: 268.8s
+  [SELL] V      - Analysis time: 272.1s
+  [SELL] WMT    - Analysis time: 265.2s
+  [SELL] JNJ    - Analysis time: 275.5s
+  [SELL] UNH    - Analysis time: 241.8s
+
+======================================================================
+PORTFOLIO METRICS
+======================================================================
+Total Stocks Analyzed: 10
+BUY signals:   3 ( 30.0%)
+HOLD signals:  2 ( 20.0%)
+SELL signals:  5 ( 50.0%)
+
+======================================================================
+SUGGESTED PORTFOLIO ALLOCATION
+======================================================================
+
+Based on BUY signals, suggested equal-weight allocation:
+  AAPL  :  33.3%
+  MSFT  :  33.3%
+  XOM   :  33.3%
+
+======================================================================
+ANALYSIS COMPLETE
+======================================================================
+
+Results saved to: portfolio_analysis_full.json
+Total analysis time: 2697.5 seconds
+
+Next steps:
+  1. Run: python analyze_sectors.py (for sector comparison)
+  2. Validate individual decisions
+  3. Compare with actual historical performance

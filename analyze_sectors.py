@@ -9,7 +9,7 @@ import yfinance as yf
 from datetime import datetime, timedelta
 import pandas as pd
 
-def load_portfolio_results(filename="portfolio_analysis_quick.json"):
+def load_portfolio_results(filename="portfolio_analysis_full.json"):
     """
     Load portfolio analysis results from JSON file
     """
@@ -19,7 +19,7 @@ def load_portfolio_results(filename="portfolio_analysis_quick.json"):
         return data
     except FileNotFoundError:
         print(f"[ERROR] Could not find {filename}")
-        print("Please run multi_stock_analysis_quick.py first")
+        print("Please run multi_stock_analysis_full.py first")
         return None
 
 def get_sector_mapping():

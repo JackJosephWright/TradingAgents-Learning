@@ -1,0 +1,75 @@
+{
+  "analysis_date": "2024-05-10",
+  "timestamp": "2025-11-07T12:19:40.412393",
+  "models_tested": [
+    "GPT-4o-mini",
+    "GPT-4o"
+  ],
+  "stocks_tested": [
+    "NVDA",
+    "JPM",
+    "WMT"
+  ],
+  "results": [
+    {
+      "model": "GPT-4o-mini",
+      "ticker": "NVDA",
+      "date": "2024-05-10",
+      "decision": "ERROR",
+      "error": "TradingAgentsGraph.__init__() got an unexpected keyword argument 'use_memory'",
+      "analysis_time": 0.0,
+      "success": false
+    },
+    {
+      "model": "GPT-4o",
+      "ticker": "NVDA",
+      "date": "2024-05-10",
+      "decision": "ERROR",
+      "error": "TradingAgentsGraph.__init__() got an unexpected keyword argument 'use_memory'",
+      "analysis_time": 0.0,
+      "success": false
+    },
+    {
+      "model": "GPT-4o-mini",
+      "ticker": "JPM",
+      "date": "2024-05-10",
+      "decision": "ERROR",
+      "error": "TradingAgentsGraph.__init__() got an unexpected keyword argument 'use_memory'",
+      "analysis_time": 0.0,
+      "success": false
+    },
+    {
+      "model": "GPT-4o",
+      "ticker": "JPM",
+      "date": "2024-05-10",
+      "decision": "ERROR",
+      "error": "TradingAgentsGraph.__init__() got an unexpected keyword argument 'use_memory'",
+      "analysis_time": 0.0,
+      "success": false
+    },
+    {
+      "model": "GPT-4o-mini",
+      "ticker": "WMT",
+      "date": "2024-05-10",
+      "decision": "ERROR",
+      "error": "TradingAgentsGraph.__init__() got an unexpected keyword argument 'use_memory'",
+      "analysis_time": 0.0,
+      "success": false
+    },
+    {
+      "model": "GPT-4o",
+      "ticker": "WMT",
+      "date": "2024-05-10",
+      "decision": "ERROR",
+      "error": "TradingAgentsGraph.__init__() got an unexpected keyword argument 'use_memory'",
+      "analysis_time": 0.0,
+      "success": false
+    }
+  ],
+  "summary": {
+    "by_ticker": {},
+    "agreements": 0,
+    "disagreements": 0,
+    "agreement_rate": 0
+  }
+}
