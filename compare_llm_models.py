@@ -55,7 +55,7 @@ def analyze_stock_with_model(ticker, date, model_config):
 
     try:
         # Initialize with this model (ChromaDB now uses get_or_create_collection)
-        ta = TradingAgentsGraph(debug=False, config=config)
+        ta = TradingAgentsGraph(debug=True, config=config)
 
         # Run analysis
         final_state, final_decision = ta.propagate(ticker, date)
@@ -143,7 +143,7 @@ def compare_models():
     for ticker, results in by_ticker.items():
         print(f"\n{ticker}:")
         for result in results:
-            print(f"  {result['model']:15} → {result['decision']:6}  ({result['analysis_time']:.1f}s)")
+            print(f"  {result['model']:15} -> {result['decision']:6}  ({result['analysis_time']:.1f}s)")
 
     # Check agreement
     print(f"\n{'='*70}")
