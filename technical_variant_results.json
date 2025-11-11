@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-11T08:25:02.799975",
+  "variant": "Technical-Focused",
+  "accuracy": 100.0,
+  "avg_score": 100.0,
+  "results": [
+    {
+      "ticker": "WMT",
+      "decision": "BUY",
+      "correct_decision": "BUY",
+      "actual_return": 70.24,
+      "is_correct": true,
+      "grade": "A",
+      "score": 100,
+      "time": 302.19000244140625
+    },
+    {
+      "ticker": "NVDA",
+      "decision": "BUY",
+      "correct_decision": "BUY",
+      "actual_return": 109.36,
+      "is_correct": true,
+      "grade": "A",
+      "score": 100,
+      "time": 301.09140062332153
+    },
+    {
+      "ticker": "JPM",
+      "decision": "BUY",
+      "correct_decision": "BUY",
+      "actual_return": 62.9,
+      "is_correct": true,
+      "grade": "A",
+      "score": 100,
+      "time": 309.56013798713684
+    }
+  ],
+  "comparison": {
+    "path_c_accuracy": 0.0,
+    "path_b_accuracy": 100.0,
+    "current_accuracy": 100.0
+  }
+}

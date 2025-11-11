@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-11-11T15:50:28.044869",
+  "test_type": "Pilot Test - Rolling Windows (2 months)",
+  "total_stocks_analyzed": 10,
+  "months_completed": 1,
+  "results": [
+    {
+      "ticker": "AAPL",
+      "analysis_date": "2024-01-15",
+      "decision": "SELL",
+      "analysis_time": 335.36,
+      "returns": {
+        "1mo": 0.41
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 0.41
+        }
+      }
+    },
+    {
+      "ticker": "JPM",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 216.36,
+      "returns": {
+        "1mo": 4.79
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 4.79
+        }
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 249.83,
+      "returns": {
+        "1mo": -2.98
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": -2.98
+        }
+      }
+    },
+    {
+      "ticker": "WMT",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 235.4,
+      "returns": {
+        "1mo": 4.18
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 4.18
+        }
+      }
+    },
+    {
+      "ticker": "BA",
+      "analysis_date": "2024-01-15",
+      "decision": "SELL",
+      "analysis_time": 220.82,
+      "returns": {
+        "1mo": 1.43
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 1.43
+        }
+      }
+    },
+    {
+      "ticker": "XOM",
+      "analysis_date": "2024-01-15",
+      "decision": "SELL",
+      "analysis_time": 234.52,
+      "returns": {
+        "1mo": 4.18
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 4.18
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "analysis_date": "2024-01-15",
+      "decision": "SELL",
+      "analysis_time": 249.7,
+      "returns": {
+        "1mo": 28.8
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": false,
+          "score": 0,
+          "grade": "F",
+          "actual_return": 28.8
+        }
+      }
+    },
+    {
+      "ticker": "NEE",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 273.99,
+      "returns": {
+        "1mo": -7.19
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": -7.19
+        }
+      }
+    },
+    {
+      "ticker": "PLD",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 252.0,
+      "returns": {
+        "1mo": 0.41
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 0.41
+        }
+      }
+    },
+    {
+      "ticker": "LIN",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 263.21,
+      "returns": {
+        "1mo": 2.89
+      },
+      "grades": {
+        "1mo": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 2.89
+        }
+      }
+    }
+  ],
+  "monthly_summaries": [
+    {
+      "month": "2024-01",
+      "analysis_date": "2024-01-15",
+      "stocks_completed": 10,
+      "time_minutes": 42.57
+    }
+  ]
+}

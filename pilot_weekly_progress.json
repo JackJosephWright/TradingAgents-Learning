@@ -1,0 +1,466 @@
+{
+  "timestamp": "2025-11-11T18:08:03.956436",
+  "test_type": "Pilot Test - Weekly Day Trading (8 weeks)",
+  "total_stocks_analyzed": 24,
+  "weeks_completed": 8,
+  "results": [
+    {
+      "ticker": "AAPL",
+      "analysis_date": "2024-01-08",
+      "decision": "HOLD",
+      "analysis_time": 245.64,
+      "returns": {
+        "1wk": -1.04
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": -1.04
+        }
+      }
+    },
+    {
+      "ticker": "JPM",
+      "analysis_date": "2024-01-08",
+      "decision": "BUY",
+      "analysis_time": 290.81,
+      "returns": {
+        "1wk": -2.34
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 0,
+          "grade": "F",
+          "actual_return": -2.34
+        }
+      }
+    },
+    {
+      "ticker": "WMT",
+      "analysis_date": "2024-01-08",
+      "decision": "HOLD",
+      "analysis_time": 263.79,
+      "returns": {
+        "1wk": 2.26
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": 2.26
+        }
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "analysis_date": "2024-01-15",
+      "decision": "BUY",
+      "analysis_time": 226.5,
+      "returns": {
+        "1wk": 1.6
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 1.6
+        }
+      }
+    },
+    {
+      "ticker": "BAC",
+      "analysis_date": "2024-01-15",
+      "decision": "BUY",
+      "analysis_time": 220.01,
+      "returns": {
+        "1wk": 1.34
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 1.34
+        }
+      }
+    },
+    {
+      "ticker": "COST",
+      "analysis_date": "2024-01-15",
+      "decision": "HOLD",
+      "analysis_time": 250.37,
+      "returns": {
+        "1wk": 1.62
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 1.62
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "analysis_date": "2024-01-22",
+      "decision": "BUY",
+      "analysis_time": 237.69,
+      "returns": {
+        "1wk": 4.71
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 4.71
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "analysis_date": "2024-01-22",
+      "decision": "HOLD",
+      "analysis_time": 222.75,
+      "returns": {
+        "1wk": 5.04
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": 5.04
+        }
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "analysis_date": "2024-01-22",
+      "decision": "HOLD",
+      "analysis_time": 305.45,
+      "returns": {
+        "1wk": -1.91
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": -1.91
+        }
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "analysis_date": "2024-01-29",
+      "decision": "BUY",
+      "analysis_time": 229.24,
+      "returns": {
+        "1wk": -6.4
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 0,
+          "grade": "F",
+          "actual_return": -6.4
+        }
+      }
+    },
+    {
+      "ticker": "XOM",
+      "analysis_date": "2024-01-29",
+      "decision": "SELL",
+      "analysis_time": 254.03,
+      "returns": {
+        "1wk": -1.53
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": -1.53
+        }
+      }
+    },
+    {
+      "ticker": "BA",
+      "analysis_date": "2024-01-29",
+      "decision": "SELL",
+      "analysis_time": 266.71,
+      "returns": {
+        "1wk": 0.7
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 0.7
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "analysis_date": "2024-02-05",
+      "decision": "BUY",
+      "analysis_time": 243.09,
+      "returns": {
+        "1wk": 1.19
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 25,
+          "grade": "D",
+          "actual_return": 1.19
+        }
+      }
+    },
+    {
+      "ticker": "CVX",
+      "analysis_date": "2024-02-05",
+      "decision": "HOLD",
+      "analysis_time": 220.97,
+      "returns": {
+        "1wk": -0.16
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": -0.16
+        }
+      }
+    },
+    {
+      "ticker": "UNH",
+      "analysis_date": "2024-02-05",
+      "decision": "HOLD",
+      "analysis_time": 219.81,
+      "returns": {
+        "1wk": 2.92
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": 2.92
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "analysis_date": "2024-02-12",
+      "decision": "BUY",
+      "analysis_time": 250.3,
+      "returns": {
+        "1wk": 2.99
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 2.99
+        }
+      }
+    },
+    {
+      "ticker": "DIS",
+      "analysis_date": "2024-02-12",
+      "decision": "HOLD",
+      "analysis_time": 240.52,
+      "returns": {
+        "1wk": 0.14
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 0.14
+        }
+      }
+    },
+    {
+      "ticker": "CAT",
+      "analysis_date": "2024-02-12",
+      "decision": "HOLD",
+      "analysis_time": 252.74,
+      "returns": {
+        "1wk": -2.45
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": -2.45
+        }
+      }
+    },
+    {
+      "ticker": "AMD",
+      "analysis_date": "2024-02-19",
+      "decision": "HOLD",
+      "analysis_time": 246.55,
+      "returns": {
+        "1wk": 6.23
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": 6.23
+        }
+      }
+    },
+    {
+      "ticker": "NEE",
+      "analysis_date": "2024-02-19",
+      "decision": "HOLD",
+      "analysis_time": 249.87,
+      "returns": {
+        "1wk": -1.69
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": -1.69
+        }
+      }
+    },
+    {
+      "ticker": "PLD",
+      "analysis_date": "2024-02-19",
+      "decision": "HOLD",
+      "analysis_time": 205.45,
+      "returns": {
+        "1wk": -0.59
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": -0.59
+        }
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "analysis_date": "2024-02-26",
+      "decision": "HOLD",
+      "analysis_time": 242.27,
+      "returns": {
+        "1wk": 4.8
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": false,
+          "score": 50,
+          "grade": "C",
+          "actual_return": 4.8
+        }
+      }
+    },
+    {
+      "ticker": "LIN",
+      "analysis_date": "2024-02-26",
+      "decision": "BUY",
+      "analysis_time": 259.61,
+      "returns": {
+        "1wk": 2.4
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 2.4
+        }
+      }
+    },
+    {
+      "ticker": "DUK",
+      "analysis_date": "2024-02-26",
+      "decision": "HOLD",
+      "analysis_time": 288.03,
+      "returns": {
+        "1wk": 1.95
+      },
+      "grades": {
+        "1wk": {
+          "is_correct": true,
+          "score": 100,
+          "grade": "A",
+          "actual_return": 1.95
+        }
+      }
+    }
+  ],
+  "weekly_summaries": [
+    {
+      "week": "2024-01-08",
+      "analysis_date": "2024-01-08",
+      "stocks_completed": 3,
+      "time_minutes": 13.43
+    },
+    {
+      "week": "2024-01-15",
+      "analysis_date": "2024-01-15",
+      "stocks_completed": 3,
+      "time_minutes": 11.7
+    },
+    {
+      "week": "2024-01-22",
+      "analysis_date": "2024-01-22",
+      "stocks_completed": 3,
+      "time_minutes": 12.86
+    },
+    {
+      "week": "2024-01-29",
+      "analysis_date": "2024-01-29",
+      "stocks_completed": 3,
+      "time_minutes": 12.59
+    },
+    {
+      "week": "2024-02-05",
+      "analysis_date": "2024-02-05",
+      "stocks_completed": 3,
+      "time_minutes": 11.49
+    },
+    {
+      "week": "2024-02-12",
+      "analysis_date": "2024-02-12",
+      "stocks_completed": 3,
+      "time_minutes": 12.49
+    },
+    {
+      "week": "2024-02-19",
+      "analysis_date": "2024-02-19",
+      "stocks_completed": 3,
+      "time_minutes": 11.79
+    },
+    {
+      "week": "2024-02-26",
+      "analysis_date": "2024-02-26",
+      "stocks_completed": 3,
+      "time_minutes": 13.25
+    }
+  ]
+}

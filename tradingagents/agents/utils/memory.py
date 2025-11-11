@@ -11,7 +11,13 @@ class FinancialSituationMemory:
             self.embedding = "text-embedding-3-small"
         self.client = OpenAI(base_url=config["backend_url"])
         self.chroma_client = chromadb.Client(Settings(allow_reset=True))
-        self.situation_collection = self.chroma_client.get_or_create_collection(name=name)
+
+        # Add unique prefix if provided in config to avoid collection conflicts
+        collection_name = name
+        if "memory_prefix" in config and config["memory_prefix"]:
+            collection_name = f"{config['memory_prefix']}_{name}"
+
+        self.situation_collection = self.chroma_client.get_or_create_collection(name=collection_name)
 
     def get_embedding(self, text):
         """Get OpenAI embedding for a text"""

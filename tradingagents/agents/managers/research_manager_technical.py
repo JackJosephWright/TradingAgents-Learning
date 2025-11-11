@@ -1,35 +1,8 @@
-"""
-TECHNICAL-FOCUSED RESEARCH MANAGER (Production Version)
-
-Adopted: 2025-11-11
-Version: Technical-Focused v1.0
-
-PERFORMANCE:
-- Test Results: 100% accuracy (3/3 stocks correct)
-  * WMT: BUY (correct, +70.24% actual return)
-  * NVDA: BUY (correct, +109.36% actual return)
-  * JPM: BUY (correct, +62.90% actual return)
-- Previous Original Version: 0% accuracy (0/3 stocks correct)
-
-APPROACH:
-- 60% weight on technical indicators (MACD, RSI, SMA, momentum, volume)
-- 25% weight on fundamentals (revenue growth, margins, debt, cash flow)
-- 15% weight on sentiment/news
-- Rules-based decision framework to reduce LLM non-determinism
-
-RATIONALE:
-Replaced debate-heavy approach with quantitative technical analysis framework.
-This reduces reliance on subjective LLM reasoning and provides more consistent,
-data-driven investment decisions.
-
-Original version backed up at: research_manager_original.py.backup
-"""
-
 import time
 import json
 
 
-def create_research_manager(llm, memory):
+def create_research_manager_technical(llm, memory):
     """
     TECHNICAL-FOCUSED VERSION: Emphasizes deterministic technical indicators over subjective debate
     Decision-making is rules-based and data-driven to reduce inconsistency
@@ -62,11 +35,11 @@ Extract and analyze these key indicators from the market research report:
 - Volume: Increasing on up days = confirmation | Decreasing = weakening
 - Momentum: Consistent upward momentum = bullish
 
-Technical Signal Summary (BALANCED):
-- If 4-5 indicators bullish → BUY signal
+Technical Signal Summary:
+- If 4+ indicators bullish → Strong BUY signal
+- If 3-4 indicators bullish, 0-1 bearish → BUY signal
 - If 2-3 mixed signals → HOLD signal
-- If 4-5 indicators bearish → SELL signal
-- Otherwise → HOLD signal (default to caution)
+- If 3+ indicators bearish → SELL signal
 
 **Step 2: Fundamental Health Check (SECONDARY - 25% weight)**
 - Revenue growth: >10% YoY = positive | <0% = negative
@@ -78,13 +51,13 @@ Technical Signal Summary (BALANCED):
 - Only use sentiment/news to confirm or slightly adjust technical signals
 - Do NOT override strong technical signals based solely on narrative
 
-**Decision Rules (BALANCED):**
-1. BUY if 4-5 technical indicators are bullish → Strong positive momentum
-2. SELL if 4-5 technical indicators are bearish → Clear downtrend
-3. HOLD if 2-3 mixed signals or uncertain → Preserve capital
-4. Fundamentals (25%) can adjust: upgrade HOLD to BUY if exceptionally strong, or downgrade BUY to HOLD if concerning
-5. ALWAYS prioritize objective data over subjective debate arguments
-6. When uncertain between decisions → HOLD (only trade with conviction)
+**Decision Rules:**
+1. If technical indicators give clear signal (4+ agree) → Follow that signal
+2. If technical indicators mixed but fundamentals strong → Lean BUY or HOLD
+3. If technical indicators mixed but fundamentals weak → Lean SELL or HOLD
+4. ALWAYS prioritize objective data over subjective debate arguments
+5. When uncertain between BUY/HOLD, check: Is trend clearly up? → BUY. Mixed? → HOLD.
+6. When uncertain between SELL/HOLD, check: Is trend clearly down? → SELL. Mixed? → HOLD.
 
 **Bull vs Bear Debate:**
 Review the debate arguments ONLY to extract any additional technical insights or data points. Do NOT let persuasive rhetoric override your quantitative analysis.

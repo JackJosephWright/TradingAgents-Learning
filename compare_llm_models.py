@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 LLM Model Comparison: GPT-4o-mini vs GPT-4o
 Tests how different AI models make trading decisions on the same stocks
 """
 
 import os
+import sys
 from datetime import datetime
 from tradingagents.graph.trading_graph import TradingAgentsGraph
 from tradingagents.default_config import DEFAULT_CONFIG
 import json
 import time
 from dotenv import load_dotenv
+
+# Fix Unicode encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
 
 # Load environment variables
 load_dotenv()
@@ -35,7 +42,7 @@ MODELS_TO_TEST = [
     }
 ]
 
-def analyze_stock_with_model(ticker, date, model_config):
+def analyze_stock_with_model(ticker, date, model_config, test_id):
     """
     Analyze a stock with a specific model configuration
     """
@@ -45,16 +52,17 @@ def analyze_stock_with_model(ticker, date, model_config):
     print(f"Date: {date}")
     print(f"{'='*70}\n")
 
-    # Configure model
+    # Configure model with unique memory prefix to avoid collection conflicts
     config = DEFAULT_CONFIG.copy()
     config["deep_think_llm"] = model_config["deep_think_llm"]
     config["quick_think_llm"] = model_config["quick_think_llm"]
     config["max_debate_rounds"] = 1
+    config["memory_prefix"] = f"test_{test_id}_{ticker}_{model_config['name'].replace('-', '_').replace(' ', '_')}"
 
     start_time = time.time()
 
     try:
-        # Initialize with this model (ChromaDB now uses get_or_create_collection)
+        # Initialize with this model with unique memory collections
         ta = TradingAgentsGraph(debug=True, config=config)
 
         # Run analysis
@@ -111,6 +119,10 @@ def compare_models():
 
     all_results = []
 
+    # Generate unique test ID for this comparison run
+    test_id = int(time.time())
+    print(f"\nTest ID: {test_id}")
+
     # Test each stock with each model
     for ticker in TEST_STOCKS:
         print(f"\n{'#'*70}")
@@ -118,7 +130,7 @@ def compare_models():
         print(f"{'#'*70}")
 
         for model_config in MODELS_TO_TEST:
-            result = analyze_stock_with_model(ticker, ANALYSIS_DATE, model_config)
+            result = analyze_stock_with_model(ticker, ANALYSIS_DATE, model_config, test_id)
             all_results.append(result)
 
             # Brief pause between tests
