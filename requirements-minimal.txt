@@ -15,6 +15,7 @@ tqdm>=4.65.0
 # Data vendor support
 beautifulsoup4>=4.11.0
 feedparser>=6.0.0
+alpaca-py>=0.8.0  # For intraday day trading data
 
 # Memory system
 chromadb>=0.4.0
