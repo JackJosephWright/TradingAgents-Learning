@@ -1,0 +1,53 @@
+[
+  {
+    "timestamp": "2025-11-12T09:33:44.971174-05:00",
+    "symbol": "AAPL",
+    "action": "BUY",
+    "qty": 3,
+    "price": 273.25,
+    "decision": "BUY"
+  },
+  {
+    "timestamp": "2025-11-12T09:36:21.465578-05:00",
+    "symbol": "TSLA",
+    "action": "BUY",
+    "qty": 2,
+    "price": 443.0,
+    "decision": "BUY"
+  },
+  {
+    "timestamp": "2025-11-12T10:36:39.716256-05:00",
+    "symbol": "SPY",
+    "action": "BUY",
+    "qty": 1,
+    "price": 681.99,
+    "decision": "BUY"
+  },
+  {
+    "timestamp": "2025-11-12T13:30:09.589683-05:00",
+    "symbol": "AAPL",
+    "action": "CLOSE",
+    "qty": 3,
+    "price": 274.96,
+    "pl_pct": 0.62580054894785,
+    "reason": "End of session"
+  },
+  {
+    "timestamp": "2025-11-12T13:30:09.606775-05:00",
+    "symbol": "SPY",
+    "action": "CLOSE",
+    "qty": 1,
+    "price": 683.48,
+    "pl_pct": 0.21994779905569,
+    "reason": "End of session"
+  },
+  {
+    "timestamp": "2025-11-12T13:30:09.625302-05:00",
+    "symbol": "TSLA",
+    "action": "CLOSE",
+    "qty": 2,
+    "price": 431.37,
+    "pl_pct": -2.03817461308747,
+    "reason": "End of session"
+  }
+]
